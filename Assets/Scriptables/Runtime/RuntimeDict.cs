@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public abstract class RuntimeDictSO<TKey, TValue> : ScriptableObject {
+[CreateAssetMenu(menuName = "Sets/RuntimeDict")]
+
+public abstract class RuntimeDict<TKey, TValue> : ScriptableObject {
     private Dictionary<TKey, TValue> itemDictionary = new Dictionary<TKey, TValue>();
 
     public void Add(TKey key, TValue value) {

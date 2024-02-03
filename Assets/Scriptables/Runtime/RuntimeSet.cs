@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class RuntimeSetSO<T> : ScriptableObject {
+public abstract class RuntimeSet<T> : ScriptableObject {
     public List<T> Items = new List<T>();
 
     public void Add(T thing) {

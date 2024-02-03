@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Variables/Integer")]
 public class IntVariable : ScriptableObject
 {
     public IntChangedEvent onValueChanged;

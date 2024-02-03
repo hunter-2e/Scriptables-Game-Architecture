@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Events/BooleanChange")]
 public class BoolChangedEvent : ScriptableObject {
     private List<BoolEventListener> listeners = new List<BoolEventListener>();
 

@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Events/FloatChange")]
+
 public class FloatChangedEvent : ScriptableObject {
     private List<FloatEventListener> listeners = new List<FloatEventListener>();
 

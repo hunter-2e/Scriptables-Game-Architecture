@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Events/IntegerChange")]
+
 public class IntChangedEvent : ScriptableObject {
     private List<IntEventListener> listeners = new List<IntEventListener>();
 
